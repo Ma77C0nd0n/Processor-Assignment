@@ -1,7 +1,7 @@
 # Comp30080 - Assignment 5
 # Student No. 13523107
 	.data # data goes in data segment
-Stu: 	.word 1,3,5,2,3,1,0,7 # individual digits are stored in word
+Stu: 	.word 1,3,3,6,3,4,7,5 # individual digits are stored in word
 	.text
 	.globl main 
 main:	la $t0, Stu
